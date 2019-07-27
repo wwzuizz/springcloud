@@ -14,12 +14,16 @@ import com.linwen.controller.admin.service.BookAndService;
 import com.linwen.model.book.condition.BookCondition;
 import com.linwen.model.category.condition.CategoryTypeCondition;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 /**
  * @author lin
@@ -30,7 +34,26 @@ import javax.servlet.http.HttpSession;
 public class AdminBookController extends BaseController {
     @Autowired
     BookAndService bookAndService;
+    @Autowired
+    private DiscoveryClient discoveryClient;
 
+    /**
+     * 服务发现，有个屁用？
+     * @return
+     */
+    @RequestMapping(value = "/dept/discovery", method = RequestMethod.GET)
+    public Object discovery()
+    {
+        List<String> list = discoveryClient.getServices();
+        System.out.println("**********" + list);
+
+        List<ServiceInstance> srvList = discoveryClient.getInstances("BOOKSYSTEM");
+        for (ServiceInstance element : srvList) {
+            System.out.println(element.getServiceId() + "\t" + element.getHost() + "\t" + element.getPort() + "\t"
+                    + element.getUri());
+        }
+        return this.discoveryClient;
+    }
     @RequestMapping("/bookList")
     @ResponseBody
     @OAuthRequired
