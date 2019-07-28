@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@FeignClient(value = "BOOKSYSTEM")
+@FeignClient(value = "BOOKSYSTEM",fallbackFactory = BookFallbackFactory.class)
 public interface HttpService {
     @RequestMapping(value = "/admin/book/bookList", method = RequestMethod.GET)
     @ResponseBody

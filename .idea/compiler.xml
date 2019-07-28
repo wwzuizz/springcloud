@@ -9,6 +9,7 @@
         <module name="BookSystem" />
         <module name="BookSystem2" />
         <module name="BookSystem3" />
+        <module name="BookSystemHystrix" />
         <module name="eurekaserver" />
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />

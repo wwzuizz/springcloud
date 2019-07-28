@@ -22,6 +22,7 @@
         <module>BookSystem2</module>
         <module>BookSystem3</module>
         <module>SystemFeign</module>
+        <module>BookSystemHystrix</module>
     </modules>
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
