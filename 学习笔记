@@ -19,3 +19,23 @@ eureka.client.service-url.defaultZone=http://eureka7002.com:7002/eureka/,http://
 
 3.修改服务的集群
 eureka.client.service-url.defaultZone=http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+
+Hystrix Dashboard  集成注意：
+1.Hystrix Dashboard项目必须有
+eureka.client.service-url.defaultZone=http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+
+2.对应的接口必须有加上
+ @HystrixCommand(fallbackMethod = "processHystrix_Get")
+ 才会出现统计
+
+3.加上HystrixCommand后会发现jpa的懒加载失效，这时候就要把事务的范围加大到查询
+
+4.一定要先请求接口，然后在请求actuator/hystrix.stream 然后在请求http://localhost:8444/hystrix
+
+5.POM
+  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+  </dependency>
+  management.endpoints.web.exposure.include=hystrix.stream
+

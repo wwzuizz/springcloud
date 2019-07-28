@@ -13,6 +13,7 @@
         <module name="eurekaserver" />
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />
+        <module name="HystrixDashboard" />
         <module name="System80" />
         <module name="SystemFeign" />
       </profile>

@@ -24,6 +24,7 @@ import java.util.List;
  * @date 2019-7-27 19:03:47
  */
 @Service
+@Transactional(rollbackFor = Exception.class)//触发熔断机制的时候，如果整个service不在事务中，就不懒加载报错
 public class BookService extends BaseQueryService<Book, BookCondition, Long> {
     public final static String Book_TABLE = "book";
 

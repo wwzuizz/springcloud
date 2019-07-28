@@ -74,7 +74,15 @@ public class AdminBookController extends BaseController {
                                @MultiRequestBody BookCondition vo,
                                @MultiRequestBody CategoryTypeCondition categoryTypeVo,
                                HttpSession session) throws Exception {
-        throw new Exception("asdasdasd");
+//        throw new Exception("asdasdasd");
+        try {
+            vo.getConditionList().add(categoryTypeVo);
+            return JsonSuccessResult(session.getId(), bookAndService.getBookService().getBookPageInfoJsonArray(vo));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return JsonFailResult(session.getId(), 1,
+                    e.getMessage());
+        }
     }
 
     @RequestMapping("/getBookSingle")
