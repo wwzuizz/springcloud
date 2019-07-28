@@ -172,6 +172,7 @@ public class BookService extends BaseQueryService<Book, BookCondition, Long> {
             }
         }
         jsonRetObject.put("list", jsonArray);
+        jsonRetObject.put("book","BookSystem1");
         return jsonRetObject;
     }
 

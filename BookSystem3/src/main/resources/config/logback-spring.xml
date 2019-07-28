@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- 日志生成位置 -->
+    <property name="log.path" value="/home/linwen/1"/>
+
+
+    <appender name="eventFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${log.path}/logs/sizheng.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover 保存历史记录到这个文件夹一日起为后缀 -->
+            <FileNamePattern>${log.path}/logs/sizheng.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+    </appender>
+
+    <logger name="com.linwen" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="eventFile"/>
+    </logger>
+    <!-- druid配置 -->
+    <logger name="druid.sql.Statement" level="DEBUG" additivity="false">
+        <appender-ref ref="eventFile"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <!--<logger name="druid.sql.ResultSet" level="debug" additivity="false">-->
+    <!--<appender-ref ref="eventFile"/>-->
+    <!--<appender-ref ref="STDOUT"/>-->
+    <!--</logger>-->
+    <!-- 打印 日志级别-->
+    <root level="DEBUG">
+        <appender-ref ref="eventFile"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

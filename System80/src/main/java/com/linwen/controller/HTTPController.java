@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.RestTemplate;
 @Controller
 public class HTTPController {
-    private static final String REST_URL_PREFIX = "http://localhost:8383";
+//    private static final String REST_URL_PREFIX = "http://localhost:8383";
+    private static final String REST_URL_PREFIX = "http://BOOKSYSTEM";
     @Autowired
     private RestTemplate restTemplate;
     @RequestMapping(value = "/consumer/dept/get")
