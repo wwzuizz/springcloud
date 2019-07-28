@@ -213,13 +213,13 @@ public class CategoryTypeService extends BaseQueryService<CategoryType, Category
         JSONArray jsonArray = null;
         JSONObject object = null;
         jsonArray = new JSONArray();
-        if (categoryType.getBookList() != null) {
-            for (int i = 0; i < categoryType.getBookList().size(); i++) {
-                object = new JSONObject();
-                BookService.getBookItem(object, categoryType.getBookList().get(i));
-                jsonArray.add(object);
-            }
-        }
+//        if (categoryType.getBookList() != null) {
+//            for (int i = 0; i < categoryType.getBookList().size(); i++) {
+//                object = new JSONObject();
+//                BookService.getBookItem(object, categoryType.getBookList().get(i));
+//                jsonArray.add(object);
+//            }
+//        }
         settingJsonObject(jsonObject, "books", jsonArray);
     }
 

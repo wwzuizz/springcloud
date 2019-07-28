@@ -10,6 +10,7 @@
         <module name="eurekaserver" />
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />
+        <module name="System80" />
       </profile>
     </annotationProcessing>
   </component>
