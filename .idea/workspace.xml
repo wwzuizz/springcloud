@@ -2,195 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bad86b3-b66b-4b97-b66b-aa4faa58d0d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BookSystem2/BookSystem2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/Book2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/aop/AopUiit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/aop/DocGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/aop/IpRolePermitted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/aop/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/ShellUnti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/BaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/QueryExe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/QueryHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/QueryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/base/QueryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/cache/KeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/config/WebConfigBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/converter/ManagerReslover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/converter/StringToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/converter/StringToNullConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/converter/multirequestbody/MultiRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/converter/multirequestbody/MultiRequestBodyArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/entity/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/fastjson/MappingJackson2HttpMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/fastjson/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/fastjson/StringValueFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/fastjson/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/file/CreateMD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/file/FileTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/http/HttpsRequestTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/http/MyX509TrustManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/mysql/SystemMySQL5Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/spring/SpringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/ValidationParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/OAuthRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/ParameterValueExistDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/ParameterValueNotExistDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/ValidInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/ValidParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/annotation/ValidationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/enums/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/comm/validation/enums/ParameterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/book/AdminBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/category/AdminCategoryTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/service/BookAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/service/CategoryTypeAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/service/ShollsAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/service/StudentAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/service/StudentInfoAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/sholls/AdminShollsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/student/AdminStudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/controller/admin/student/AdminStudentInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/book/bean/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/book/condition/BookCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/category/bean/CategoryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/category/condition/CategoryTypeCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/sholls/bean/Sholls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/sholls/condition/ShollsCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/student/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/student/bean/StudentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/student/condition/StudentCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/model/student/condition/StudentInfoCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/persistence/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/persistence/category/CategoryTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/persistence/sholls/ShollsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/persistence/student/StudentInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/persistence/student/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/category/CategoryTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/sholls/ShollsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/student/StudentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/student/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/validator/ValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/resources/config/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/resources/config/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/resources/config/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem2/src/main/resources/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/BookSystem3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/Book3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/aop/AopUiit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/aop/DocGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/aop/IpRolePermitted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/aop/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/ShellUnti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/BaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/QueryExe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/QueryHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/QueryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/base/QueryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/cache/KeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/config/WebConfigBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/converter/ManagerReslover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/converter/StringToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/converter/StringToNullConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/converter/multirequestbody/MultiRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/converter/multirequestbody/MultiRequestBodyArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/entity/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/fastjson/MappingJackson2HttpMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/fastjson/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/fastjson/StringValueFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/fastjson/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/file/CreateMD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/file/FileTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/http/HttpsRequestTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/http/MyX509TrustManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/mysql/SystemMySQL5Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/spring/SpringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/ValidationParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/OAuthRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/ParameterValueExistDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/ParameterValueNotExistDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/ValidInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/ValidParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/annotation/ValidationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/enums/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/comm/validation/enums/ParameterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/book/AdminBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/category/AdminCategoryTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/service/BookAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/service/CategoryTypeAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/service/ShollsAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/service/StudentAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/service/StudentInfoAndService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/sholls/AdminShollsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/student/AdminStudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/controller/admin/student/AdminStudentInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/book/bean/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/book/condition/BookCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/category/bean/CategoryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/category/condition/CategoryTypeCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/sholls/bean/Sholls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/sholls/condition/ShollsCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/student/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/student/bean/StudentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/student/condition/StudentCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/model/student/condition/StudentInfoCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/persistence/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/persistence/category/CategoryTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/persistence/sholls/ShollsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/persistence/student/StudentInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/persistence/student/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/category/CategoryTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/sholls/ShollsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/student/StudentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/student/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/validator/ValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/resources/config/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/resources/config/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/resources/config/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSystem3/src/main/resources/ehcache.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SystemFeign/SystemFeign.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SystemFeign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/HttpApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/HttpFeignApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/ConfigBean.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HTTPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HttpService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SystemFeign/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/service/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/service/book/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSystem/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookSystem/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSystem/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookSystem/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSystem/target/classes/com/linwen/service/book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookSystem/target/classes/com/linwen/service/book/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/System80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System80/src/main/java/com/linwen/HttpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/System80/src/main/java/com/linwen/HttpApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System80/src/main/java/com/linwen/controller/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/System80/src/main/java/com/linwen/controller/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System80/src/main/java/com/linwen/controller/HTTPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/System80/src/main/java/com/linwen/controller/HTTPController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System80/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/System80/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -211,28 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookSystem3/src/main/java/com/linwen/service/book/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="174" column="45" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookSystem2/src/main/java/com/linwen/service/book/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="174" column="45" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BookSystem/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="448">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -240,15 +41,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SystemFeign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="519">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/ConfigBean.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/System80/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/controller/admin/book/AdminBookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="56" column="30" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -256,7 +73,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System80/src/main/java/com/linwen/HttpApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -269,10 +86,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookSystem2/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HTTPController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/HttpFeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HttpService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,15 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookSystem3/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -352,7 +188,10 @@
         <option value="$PROJECT_DIR$/BookSystem3/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/BookSystem2/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/BookSystem/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HTTPController.java" />
         <option value="$PROJECT_DIR$/SystemFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/HttpFeignApplication.java" />
+        <option value="$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HttpService.java" />
       </list>
     </option>
   </component>
@@ -379,25 +218,25 @@
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -405,7 +244,7 @@
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -414,7 +253,107 @@
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="linwen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="linwen" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="linwen" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="linwen" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
               <item name="System80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="System80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -425,19 +364,12 @@
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
               <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Cloud2" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemFeign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="linwen" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Cloud2" type="b2602c69:ProjectViewProjectNode" />
@@ -462,7 +394,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564311100609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564314095007" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -494,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HttpApplication">
+  <component name="RunManager" selected="Spring Boot.HttpFeignApplication">
     <configuration name="Book2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="BookSystem2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.linwen.Book2Application" />
@@ -563,8 +495,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SystemFeign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linwen.HttpFeignApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.HttpApplication" />
+      <item itemvalue="Spring Boot.HttpFeignApplication" />
       <item itemvalue="Spring Boot.Book2Application" />
       <item itemvalue="Spring Boot.Book3Application" />
       <item itemvalue="Spring Boot.BookApplication" />
@@ -584,7 +527,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564252883809</updated>
       <workItem from="1564252901363" duration="7681000" />
-      <workItem from="1564280039181" duration="15248000" />
+      <workItem from="1564280039181" duration="17438000" />
     </task>
     <task id="LOCAL-00001" summary="服务注册和发现">
       <created>1564261612715</created>
@@ -607,17 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564306128257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加三个BookSystem,用Ribbon做负载均衡">
+      <created>1564311333601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564311333601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22929000" />
+    <option name="totallyTimeSpent" value="25119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34670487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34670487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -688,18 +637,10 @@
     <MESSAGE value="服务注册和发现" />
     <MESSAGE value="eureka继承和集群" />
     <MESSAGE value="添加80服务器，作为消费方去访问bookSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加80服务器，作为消费方去访问bookSystem" />
+    <MESSAGE value="添加三个BookSystem,用Ribbon做负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加三个BookSystem,用Ribbon做负载均衡" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/aop/MyAspect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/aop/DocGen.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/comm/file/FileTool.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/comm/entity/IdGenerator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -838,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/System80/src/main/java/com/linwen/controller/HTTPController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -911,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/controller/admin/book/AdminBookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="66" column="94" selection-start-line="66" selection-start-column="94" selection-end-line="66" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/service/book/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -970,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -987,10 +904,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SystemFeign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="519">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/HttpFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,6 +942,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookSystem/src/main/java/com/linwen/controller/admin/book/AdminBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HTTPController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemFeign/src/main/java/com/linwen/controller/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
