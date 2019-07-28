@@ -1,0 +1,21 @@
+eureka集群
+1.设置host
+C:\Windows\System32\drivers\etc
+127.0.0.1 eureka7001.com
+127.0.0.1 eureka7002.com
+127.0.0.1 eureka7003.com
+2.修改eurekas 配置
+#eureka3
+eureka.instance.hostname=eureka7003.com
+eureka.client.service-url.defaultZone=http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+#eureka2
+eureka.instance.hostname=eureka7002.com
+eureka.client.service-url.defaultZone=http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
+
+#eureka1
+eureka.instance.hostname=eureka7001.com
+eureka.client.service-url.defaultZone=http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+3.修改服务的集群
+eureka.client.service-url.defaultZone=http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka

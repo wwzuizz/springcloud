@@ -16,6 +16,8 @@
     <modules>
         <module>BookSystem</module>
         <module>eureka-server</module>
+        <module>EurekaServer2</module>
+        <module>EurekaServer3</module>
     </modules>
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

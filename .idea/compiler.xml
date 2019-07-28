@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BookSystem" />
         <module name="eurekaserver" />
+        <module name="EurekaServer2" />
+        <module name="EurekaServer3" />
       </profile>
     </annotationProcessing>
   </component>
