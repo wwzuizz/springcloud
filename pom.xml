@@ -24,6 +24,8 @@
         <module>SystemFeign</module>
         <module>BookSystemHystrix</module>
         <module>HystrixDashboard</module>
+        <module>ZuulSystem</module>
+        <module>public</module>
     </modules>
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

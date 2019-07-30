@@ -14,8 +14,10 @@
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />
         <module name="HystrixDashboard" />
+        <module name="public" />
         <module name="System80" />
         <module name="SystemFeign" />
+        <module name="ZuulSystem" />
       </profile>
     </annotationProcessing>
   </component>
